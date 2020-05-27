@@ -1,14 +1,12 @@
 /* LAPTOP VIEW */
-body{
-    background: rgb(139, 139, 139, 0.5);
+body {
+  background: rgb(139, 139, 139, 0.5);
 }
 @media screen and (min-width: 1200px) {
-   
   .nav {
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     background: black;
     width: 100%;
     height: 20vh;
@@ -19,7 +17,7 @@ body{
     -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
       inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
     -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+      inset rgba(146, 62, 62, 0.15) 0px -10px 20px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
       inset rgba(92, 29, 29, 0.15) 0px -10px 20px;
   }
@@ -128,10 +126,10 @@ body{
   }
 
   /* WORK GRID */
-  .work-section{
-      padding-top: 150px; 
+  .work-section {
+    padding-top: 150px;
   }
-.workGrid {
+  .workGrid {
     background: rgb(139, 139, 139, 0.5);
     padding-top: 80px;
     display: flex;
@@ -149,7 +147,7 @@ body{
   }
 
   /* GRID-WRAPPER */
-.grid-wrapper {
+  .grid-wrapper {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
@@ -172,73 +170,74 @@ body{
     transform: rotate(-7deg);
   }
 
-
   /* FOOTER */
-.footerGrid{
+  .footerGrid {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+  
     /* background: #000000; */
     height: 10vh;
-}
-.footer{
+  }
+  .footer {
     background: #000000;
     text-align: center;
     height: 25vh;
-}
+  }
+  .foot-a {
+    padding-top: 17px;
+    padding-left: 20px;
+  }
 
-.fa-twitter-square{
+  .fa-twitter-square {
     font-size: 50px;
-}
-.fa-facebook-square{
+  }
+  .fa-facebook-square {
     font-size: 50px;
-}
-.fa-linkedin-in{
+  }
+  .fa-linkedin-in {
     font-size: 50px;
-}
-.fa-medium{
+  }
+  .fa-medium {
     font-size: 50px;
-}
-.fa-instagram-square{
+  }
+  .fa-instagram-square {
     font-size: 50px;
-}
-.icon {
-  padding: 20px;
-  letter-spacing: 20px;
-  color: #fff;
-}
+  }
+  .icon {
+    padding: 20px;
+    letter-spacing: 20px;
+    color: #fff;
+  }
 
+  h3 {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+  }
 
-h3 {
-  text-align: center;
-  color: #fff;
-}
-
-.zone {
-  /* padding:30px 50px;
+  .zone {
+    /* padding:30px 50px;
     margin:40px 60px; */
-  cursor: pointer;
-  /* display:inline-block; */
-  color: #fff;
-  font-size: 2em;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  transition: all 0.3s linear;
-}
+    cursor: pointer;
+    /* display:inline-block; */
+    color: #fff;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+  }
 
-.zone:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  .zone:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  }
 }
-}
-
-
 
 /* TAB VIEW */
 
@@ -247,7 +246,7 @@ h3 {
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+
     background: black;
     width: 100%;
     height: 20vh;
@@ -271,7 +270,7 @@ h3 {
     padding: 10px;
   }
   .logo {
-    width: 100px;
+    width: 200px;
     height: 50px;
   }
   .overlay-menu {
@@ -387,7 +386,7 @@ h3 {
     color: #fff;
     z-index: 1;
   }
- 
+
   .hero-text {
     font-size: 20px;
     color: #fff;
@@ -412,12 +411,11 @@ h3 {
     background-color: Transparent;
   }
 
-
   /* WORK GRID */
-  .work-section{
-    padding-top: 150px; 
-}
-.workGrid {
+  .work-section {
+    padding-top: 150px;
+  }
+  .workGrid {
     background: rgb(139, 139, 139, 0.5);
     margin: 20px;
     padding: 20px;
@@ -435,9 +433,8 @@ h3 {
     margin: 20px;
   }
 
-
-    /* GRID-WRAPPER */
-.grid-wrapper {
+  /* GRID-WRAPPER */
+  .grid-wrapper {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
@@ -460,68 +457,45 @@ h3 {
     transform: rotate(-7deg);
   }
 
+ /* FOOTER */
+ .footerGrid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 120px;
+  /* background: #000000; */
+  height: 10vh;
+}
+.footer {
+  background:black;
+  text-align: center;
+  height: 35vh;
+}
+}
+.foot-a{
+  padding-top: 17px;
+}
 
-  /* FOOTER */
-.footerGrid{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    /* background: #000000; */
-    height: 10vh;
+.fa-twitter-square {
+  font-size: 30px;
 }
-.footer{
-    background: #000000;
-    text-align: center;
-    height: 25vh;
+.fa-facebook-square {
+  font-size: 30px;
 }
-
-.fa-twitter-square{
-    font-size: 50px;
+.fa-linkedin-in {
+  font-size: 30px;
 }
-.fa-facebook-square{
-    font-size: 50px;
+.fa-medium {
+  font-size: 30px;
 }
-.fa-linkedin-in{
-    font-size: 50px;
-}
-.fa-medium{
-    font-size: 50px;
-}
-.fa-instagram-square{
-    font-size: 50px;
+.fa-instagram-square {
+  font-size: 30px;
 }
 .icon {
-  padding: 20px;
-  letter-spacing: 20px;
   color: #fff;
 }
-
 
 h3 {
   text-align: center;
   color: #fff;
-}
-
-.zone {
-  /* padding:30px 50px;
-    margin:40px 60px; */
-  cursor: pointer;
-  /* display:inline-block; */
-  color: #fff;
-  font-size: 2em;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  transition: all 0.3s linear;
-}
-
-.zone:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-}
 }

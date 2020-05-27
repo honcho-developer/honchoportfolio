@@ -29,8 +29,14 @@
     color: white;
     text-decoration: none;
   }
+  .logo {
+    padding: 10px;
+    width: 250px;
+    height: 120px;
+  }
   .logo-a {
-    padding: 40px;
+    margin: 20px;
+    padding: 20px;
   }
   .overlay-menu {
     height: 100vh;
@@ -174,31 +180,36 @@
   .footer {
     background: #000000;
     text-align: center;
-    height: 25vh;
+    height: 20vh;
   }
-
+  .foot-a{
+    padding-top: 17px;
+    padding-left: 20px;
+}
   .fa-twitter-square {
-    font-size: 50px;
+    font-size: 80px;
   }
   .fa-facebook-square {
-    font-size: 50px;
+    font-size: 80px;
   }
   .fa-linkedin-in {
-    font-size: 50px;
+    font-size: 80px;
   }
   .fa-medium {
-    font-size: 50px;
+    font-size: 80px;
   }
   .fa-instagram-square {
-    font-size: 50px;
+    font-size: 80px;
   }
   .icon {
-    padding: 20px;
+    padding: 30px;
     letter-spacing: 20px;
     color: #fff;
   }
 
   h3 {
+    padding-top: 40px;
+    font-size: 50px;
     text-align: center;
     color: #fff;
   }
