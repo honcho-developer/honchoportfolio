@@ -170,50 +170,49 @@
   }
 
   /* FOOTER */
+  /* FOOTER */
   .footerGrid {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 120px;
     /* background: #000000; */
     height: 10vh;
   }
   .footer {
-    background: #000000;
+    background:black;
     text-align: center;
     height: 20vh;
   }
-  .foot-a{
-    padding-top: 17px;
-    padding-left: 20px;
 }
+.foot-a{
+    padding-top: 17px;
+}
+
   .fa-twitter-square {
-    font-size: 80px;
+    font-size: 70px;
   }
   .fa-facebook-square {
-    font-size: 80px;
+    font-size: 70px;
   }
   .fa-linkedin-in {
-    font-size: 80px;
+    font-size: 70px;
   }
   .fa-medium {
-    font-size: 80px;
+    font-size: 70px;
   }
   .fa-instagram-square {
-    font-size: 80px;
+    font-size: 70px;
   }
   .icon {
-    padding: 30px;
-    letter-spacing: 20px;
+    padding: 40px;
     color: #fff;
   }
 
   h3 {
-    padding-top: 40px;
-    font-size: 50px;
     text-align: center;
     color: #fff;
   }
-
   .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
