@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (min-width: 420px) {
+  /* HEADER */
+  .nav {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+  }
+  .nav:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(92, 29, 29, 0.15) 0px -10px 20px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .logo-a {
+    padding: 40px;
+  }
+  .overlay-menu {
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .overlay-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    width: 100vh;
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+  }
+  .overlay-menu a {
+    margin: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .overlay-menu a:hover,
+  a .overlay-menu a:focus {
+    color: rgb(139, 139, 139, 1);
+  }
+  .overlay-menu .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    font-size: 60px;
+  }
+  .openbtn {
+    color: white;
+    padding: 40px;
+    font-size: 80px;
+    padding: 30px;
+    cursor: pointer;
+  }
+
+  /* COVER CONTAINER */
+  .container {
+    padding-top: 250px;
+    height: 50vh;
+  }
+  .cover {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+  }
+  .hero-content {
+    padding-left: 40px;
+    position: absolute;
+    margin-top: -490px;
+    color: #fff;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .hero-text {
+    font-size: 34px;
+    color: #fff;
+  }
+  .hero-btn {
+    padding-top: 30px;
+  }
+  .hero-btn > button {
+    border: 3px solid white;
+    padding: 10px;
+    width: 20vw;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    height: 6vh;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+  }
+  .hero-btn > button:hover {
+    font-size: 30px;
+    border: 3px solid black;
+    color: #000000;
+    background-color: Transparent;
+  }
+
+  /* WORK GRID */
+  .workGrid {
+    background: rgb(139, 139, 139, 0.5);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    height: 30vh;
+  }
+  .section-header {
+    text-align: center;
+  }
+  .box1 {
+    background-color: whitesmoke;
+    width: 30vw;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  /* GRID-WRAPPER */
+  .grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    background: rgb(139, 139, 139, 0.5);
+    margin: 20px;
+    padding: 20px;
+  }
+  .box > img {
+    width: 100%;
+  }
+  .box {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+  }
+  .box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+  }
+
+  /* FOOTER */
+  .footerGrid {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* background: #000000; */
+    height: 10vh;
+  }
+  .footer {
+    background: #000000;
+    text-align: center;
+    height: 25vh;
+  }
+
+  .fa-twitter-square {
+    font-size: 50px;
+  }
+  .fa-facebook-square {
+    font-size: 50px;
+  }
+  .fa-linkedin-in {
+    font-size: 50px;
+  }
+  .fa-medium {
+    font-size: 50px;
+  }
+  .fa-instagram-square {
+    font-size: 50px;
+  }
+  .icon {
+    padding: 20px;
+    letter-spacing: 20px;
+    color: #fff;
+  }
+
+  h3 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .zone {
+    /* padding:30px 50px;
+    margin:40px 60px; */
+    cursor: pointer;
+    /* display:inline-block; */
+    color: #fff;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+  }
+
+  .zone:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+      inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  }
+}
