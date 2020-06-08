@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 @media screen and (min-width: 420px) {
   /* HEADER */
@@ -56,7 +57,7 @@
     top: 25%;
     width: 100vh;
     text-align: left;
-    padding: 20px;
+    padding: 70px;
     margin: 30px;
   }
   .overlay-menu a {
@@ -96,7 +97,7 @@
   .hero-content {
     padding-left: 40px;
     position: absolute;
-    margin-top: -490px;
+    margin-top: -600px;
     color: #fff;
   }
   h1 {
@@ -170,7 +171,6 @@
   }
 
   /* FOOTER */
-  /* FOOTER */
   .footerGrid {
     display: flex;
     justify-content: space-between;
@@ -189,27 +189,30 @@
     padding-top: 17px;
 }
 
-  .fa-twitter-square {
-    font-size: 70px;
-  }
-  .fa-facebook-square {
-    font-size: 70px;
-  }
-  .fa-linkedin-in {
-    font-size: 70px;
-  }
-  .fa-medium {
-    font-size: 70px;
-  }
-  .fa-instagram-square {
-    font-size: 70px;
-  }
+.fa-twitter-square {
+  font-size: 350px;
+}
+.fa-facebook-square {
+  font-size: 50px;
+}
+.fa-linkedin-in {
+  font-size: 50px;
+}
+.fa-medium {
+  font-size: 50px;
+}
+.fa-instagram-square {
+  font-size: 50px;
+}
   .icon {
-    padding: 40px;
+    padding: 50px;
+    letter-spacing: 20px;
+    font-size: 50px;
     color: #fff;
   }
 
   h3 {
+    font-size: 50px;
     text-align: center;
     color: #fff;
   }

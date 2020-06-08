@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 /* LAPTOP VIEW */
@@ -36,8 +37,8 @@ body {
     padding: 10px;
   }
   .logo {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
   }
   .overlay-menu {
     height: 100vh;
@@ -57,7 +58,7 @@ body {
     top: 25%;
     width: 100vh;
     text-align: left;
-    padding: 20px;
+    padding: 30px;
     margin: 30px;
   }
   .overlay-menu a {
@@ -187,10 +188,9 @@ body {
   .footer {
     background: #000000;
     text-align: center;
-    height: 30vh;
+    height: 35vh;
   }
   .foot-a {
-    padding-top: 17px;
     padding-left: 20px;
   }
 
@@ -216,6 +216,7 @@ body {
   }
 
   h3 {
+    font-size: 20px;
     padding-top: 50px;
     text-align: center;
     color: #fff;
@@ -244,6 +245,9 @@ body {
       inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   }
 }
+
+
+
 
 /* TAB VIEW */
 
@@ -297,7 +301,7 @@ body {
     top: 25%;
     width: 100vh;
     text-align: left;
-    padding: 20px;
+    padding: 70px;
     margin: 30px;
   }
   .overlay-menu a {
@@ -505,3 +509,9 @@ h3 {
   text-align: center;
   color: #fff;
 }
+
+
+
+
+
+

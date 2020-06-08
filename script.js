@@ -1,6 +1,6 @@
 console.log("js is connected");
 function openNav() {
-  document.getElementById("myNav").style.width = "25%";
+  document.getElementById("myNav").style.width = "50%";
 }
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";

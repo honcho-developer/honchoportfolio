@@ -4,6 +4,7 @@ body {
   padding: auto 0;
   font-family: Helvetica, sans-serif;
   background: rgb(139, 139, 139, 0.5);
+  cursor: pointer;
 }
 
 /* HEADER MEDIA SCREEN */
